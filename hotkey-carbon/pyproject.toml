@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-hotkey-carbon"
+version = "0.1.0"
+description = "Permission-free global hotkeys on macOS via ctypes -> Carbon RegisterEventHotKey"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Brook Zeng" }]
+classifiers = [
+    "Environment :: MacOS X",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/BrookZeng2023/py-hotkey-carbon"

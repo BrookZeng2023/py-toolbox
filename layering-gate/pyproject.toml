@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "layering-gate"
+version = "0.1.0"
+description = "Enforce package dependency direction as a unit test (AST import scan)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Brook Zeng" }]
+classifiers = [
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/BrookZeng2023/py-toolbox"
